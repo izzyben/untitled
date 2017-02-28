@@ -10,6 +10,8 @@
 
     $myAge = 15;
 
+    /*
+    //Conditional Statements
     if ($myAge < "16"){
         print "I'm Sorry you are Underage, and therefore can't buy any product. Thank You";
     }
@@ -25,6 +27,27 @@
      {
         print "You can buy SPECS, MUGS and SAUSAGE ROLLS";
     }
+    */
+
+    //Switch Statement Activity
+
+    $wantedGood = "mugs";
+
+    switch($wantedGood){
+        case "mugs":
+            print "You have to be 18 to buy mugs";
+            break;
+        case "specs":
+            print "You have to be over 16 to buy specs";
+            break;
+        case "sausage rolls":
+            print "You have to be over 21 to buy sausage rolls";
+            break;
+        default:
+            echo "You have to be between these age groups to buy these products";
+    }
+
+
 
     ?>
 </p>
