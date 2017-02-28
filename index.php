@@ -10,7 +10,10 @@
 
     $myAge = 15;
 
-    if ($myAge >= "16" && $myAge < "18")
+    if ($myAge < "16"){
+        print "I'm Sorry you are Underage, and therefore can't buy any product. Thank You";
+    }
+    elseif ($myAge >= "16" && $myAge < "18")
     {
         print "You can buy SPECS only";
     }
@@ -23,9 +26,6 @@
         print "You can buy SPECS, MUGS and SAUSAGE ROLLS";
     }
 
-    else {
-        print "I'm Sorry you are Underage, and therefore can't buy any product. Thank You";
-    }
     ?>
 </p>
 
