@@ -8,7 +8,7 @@
 <p>
     <?php
 
-    $myAge = 21;
+    $myAge = 15;
 
     if ($myAge >= "16" && $myAge < "18")
     {
@@ -21,6 +21,10 @@
      elseif ($myAge >= "21")
      {
         print "You can buy SPECS, MUGS and SAUSAGE ROLLS";
+    }
+
+    else {
+        print "I'm Sorry you are Underage, and therefore can't buy any product. Thank You";
     }
     ?>
 </p>
