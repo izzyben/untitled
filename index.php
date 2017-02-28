@@ -27,7 +27,7 @@
      {
         print "You can buy SPECS, MUGS and SAUSAGE ROLLS";
     }
-    */
+
 
     //Switch Statement Activity
 
@@ -46,7 +46,15 @@
         default:
             echo "You have to be between these age groups to buy these products";
     }
+*/
+    $provisionedActivities = array("Specs","Mugs","Sausage Rolls");
 
+    foreach ($provisionedActivities as $x){
+        print "<p>$x</p>";
+    }
+
+    $provisionedActivities[1]="Hugs"; //modifies mugs to hugs
+    unset($provisionedActivities[2]); //removes sausage rolls
 
 
     ?>
